@@ -1,0 +1,149 @@
+tibbieslover.css
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+/* Header Section */
+.hero-section {
+    background: linear-gradient(to right, #000000, #00008b);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #1e90ff;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #4682b4;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 0;
+    background-color: #222;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #111;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 50px 0;
+    background-color: #222;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #111;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    padding: 15px 30px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.contact-section form button:hover {
+    background-color: #4682b4;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #111;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
